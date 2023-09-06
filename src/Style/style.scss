@@ -1,0 +1,35 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+
+  .custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    span {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      padding-left: 0;
+
+      li {
+        font-size: 1rem;
+        cursor: pointer;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
