@@ -11,12 +11,11 @@ export default function Root(props) {
               <Link to="/planets">Employee</Link>
             </li>
             <li>
-              <Link to="/stars">Poetry</Link>
+              <Link to="/stars">Poetrry</Link>
             </li>
           </ul>
         </div>
       </nav>
     </BrowserRouter>
-
   );
 }
