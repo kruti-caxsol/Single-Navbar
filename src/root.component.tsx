@@ -11,7 +11,7 @@ export default function Root(props) {
               <Link to="/planets">Employee</Link>
             </li>
             <li>
-              <Link to="/stars">Poetrry</Link>
+              <Link to="/stars">Poetry</Link>
             </li>
           </ul>
         </div>
